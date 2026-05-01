@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Full Stack Developer & AI Enthusiast. Building intelligent web experiences from pixel-perfect UIs to AI-powered backends."/>
+<meta name="keywords" content="full stack developer, AI, machine learning, web development, React, Node.js"/>
+<meta name="author" content="Alex Morgan"/>
+<meta name="theme-color" content="#080c14"/>
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://example.com/"/>
+<meta property="og:title" content="Alex Morgan — Full Stack Developer & AI Enthusiast"/>
+<meta property="og:description" content="Building intelligent web experiences — from pixel-perfect UIs to AI-powered backends."/>
+<meta property="og:image" content="https://example.com/og-image.png"/>
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:url" content="https://example.com/"/>
+<meta name="twitter:title" content="Alex Morgan — Full Stack Developer & AI Enthusiast"/>
+<meta name="twitter:description" content="Building intelligent web experiences — from pixel-perfect UIs to AI-powered backends."/>
+<meta name="twitter:image" content="https://example.com/twitter-image.png"/>
+
+<title>Portfolio — Full Stack Developer & AI Enthusiast</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer"/>
+<link rel="stylesheet" href="style.css"/>
+
+<!-- Preload critical assets -->
+<link rel="preload" as="font" href="https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap" crossorigin/>
+</head>
+<body>
+
+<!-- Skip to main content link for accessibility -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- ══════════════════════════════════ NAVBAR ══════════════════════════════════ -->
+<nav id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container nav-inner">
+    <a href="#hero" class="nav-logo" aria-label="Alex Morgan - Home">&#60;Dev/&#62;</a>
+    <ul class="nav-links" role="menubar">
+      <li role="none"><a href="#about" role="menuitem">About</a></li>
+      <li role="none"><a href="#skills" role="menuitem">Skills</a></li>
+      <li role="none"><a href="#projects" role="menuitem">Projects</a></li>
+      <li role="none"><a href="#contact" role="menuitem">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu" role="navigation" aria-label="Mobile navigation" hidden>
+  <a href="#about" class="mobile-link">About</a>
+  <a href="#skills" class="mobile-link">Skills</a>
+  <a href="#projects" class="mobile-link">Projects</a>
+  <a href="#contact" class="mobile-link">Contact</a>
+</div>
+
+<!-- ══════════════════════════════════ HERO ══════════════════════════════════ -->
+<section id="hero" class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="shape shape-1" aria-hidden="true"></div>
+  <div class="shape shape-2" aria-hidden="true"></div>
+  <div class="shape shape-3" aria-hidden="true"></div>
+
+  <div class="container hero-content">
+    <div class="hero-badge">
+      <span class="dot" aria-hidden="true"></span>
+      <span>Available for opportunities</span>
+    </div>
+    <h1 class="hero-name">
+      <span class="gradient-text">ELANGAVIN</span><br/>Jk
+    </h1>
+    <p class="hero-role">
+      Full Stack Developer <span aria-label="and">·</span> <span class="highlight">AI Enthusiast</span>
+    </p>
+    <p class="hero-tagline">
+      I craft intelligent web experiences — from pixel-perfect UIs to AI-powered backends that scale.
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary" aria-label="View my work">
+        <i class="fas fa-rocket" aria-hidden="true"></i> View My Work
+      </a>
+      <a href="#contact" class="btn btn-outline" aria-label="Contact me">
+        <i class="fas fa-paper-plane" aria-hidden="true"></i> Let's Talk
+      </a>
+    </div>
+  </div>
+
+  <div class="scroll-ind" aria-hidden="true">
+    <div class="wheel"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════ ABOUT ══════════════════════════════════ -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="about-grid">
+      <!-- Image side -->
+      <div class="about-img-wrap reveal">
+        <div class="about-img-frame">
+          <span class="emoji" aria-label="Developer emoji">🧑‍💻</span>
+        </div>
+        <div class="about-deco about-deco-1" aria-hidden="true"></div>
+        <div class="about-deco about-deco-2" aria-hidden="true"></div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-num">2+</div>
+            <div class="stat-label">Years Exp.</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">10+</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">5+</div>
+            <div class="stat-label">Hackathons</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Text side -->
+      <div class="about-text reveal">
+        <div class="section-label">About Me</div>
+        <h2 class="section-title">Building things that<br/><span class="gradient-text">matter & scale</span></h2>
+        <p>
+          I'm a <strong>Full Stack Developer</strong> passionate about blending clean code with intelligent systems.
+          I specialize in building high-performance web applications that don't just look great —
+          they think, adapt, and scale.
+        </p>
+        <p>
+          My journey started with a fascination for how software can solve real problems.
+          Today, I work at the intersection of <strong>modern web engineering</strong> and <strong>AI/ML</strong>,
+          crafting products that people actually love to use.
+        </p>
+        <p>
+          When I'm not shipping code, I'm exploring the latest in LLMs, contributing to open source,
+          or writing about developer experience and AI trends.
+        </p>
+        <br/>
+        <div class="cta-group">
+          <a href="#contact" class="btn btn-primary">
+            <i class="fas fa-download" aria-hidden="true"></i> Download CV
+          </a>
+          <a href="#skills" class="btn btn-outline">
+            Explore Skills <i class="fas fa-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════ SKILLS ══════════════════════════════════ -->
+<section id="skills" class="section section-alt">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label" style="justify-content:center;">Tech Stack</div>
+      <h2 class="section-title">Tools I <span class="gradient-text">Work With</span></h2>
+      <p class="section-description">
+        From zero to production — I handle every layer of the stack with tools that are battle-tested and future-ready.
+      </p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-category reveal">
+        <div class="cat-icon"><i class="fas fa-palette" aria-hidden="true"></i></div>
+        <div class="cat-title">Frontend</div>
+        <div class="skill-chips">
+          <span class="chip">React</span>
+          <span class="chip">Next.js</span>
+          <span class="chip">TypeScript</span>
+          <span class="chip">Tailwind CSS</span>
+          <span class="chip">Framer Motion</span>
+          <span class="chip">Three.js</span>
+          <span class="chip">Redux</span>
+          <span class="chip">GraphQL</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <div class="cat-icon"><i class="fas fa-server" aria-hidden="true"></i></div>
+        <div class="cat-title">Backend</div>
+        <div class="skill-chips">
+          <span class="chip">Node.js</span>
+          <span class="chip">Python</span>
+          <span class="chip">FastAPI</span>
+          <span class="chip">PostgreSQL</span>
+          <span class="chip">MongoDB</span>
+          <span class="chip">Redis</span>
+          <span class="chip">Docker</span>
+          <span class="chip">AWS</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <div class="cat-icon"><i class="fas fa-brain" aria-hidden="true"></i></div>
+        <div class="cat-title">AI & ML</div>
+        <div class="skill-chips">
+          <span class="chip">LangChain</span>
+          <span class="chip">OpenAI API</span>
+          <span class="chip">Anthropic</span>
+          <span class="chip">HuggingFace</span>
+          <span class="chip">PyTorch</span>
+          <span class="chip">LlamaIndex</span>
+          <span class="chip">Pinecone</span>
+          <span class="chip">Vertex AI</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skill bars -->
+    <div class="skill-bars reveal" id="skillBars">
+      <div class="skill-bar-item">
+        <div class="skill-bar-header"><span>React / Next.js</span><span aria-label="95 percent">95%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="95" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-header"><span>Node.js / Python</span><span aria-label="90 percent">90%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="90" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-header"><span>LLM Integration</span><span aria-label="88 percent">88%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="88" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-header"><span>TypeScript</span><span aria-label="92 percent">92%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="92" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-header"><span>Cloud & DevOps</span><span aria-label="80 percent">80%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="80" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-header"><span>Database Design</span><span aria-label="85 percent">85%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="85" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════ PROJECTS ══════════════════════════════════ -->
+<section id="projects" class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label" style="justify-content:center;">Featured Work</div>
+      <h2 class="section-title">Projects I've <span class="gradient-text">Built</span></h2>
+      <p class="section-description">
+        A selection of real-world projects that showcase my craft across web, AI, and system design.
+      </p>
+    </div>
+
+    <div class="projects-grid" role="list">
+
+      <article class="project-card reveal" role="listitem">
+        <div class="project-thumb t1">
+          <span class="proj-emoji" aria-label="Robot emoji">🤖</span>
+          <span class="proj-badge">AI · SaaS</span>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">AI Resume Analyzer — AI Assistant Platform</h3>
+          <p class="project-desc">A multi-model AI chat platform with RAG, memory, and custom personas. Built for teams to deploy internal AI assistants.</p>
+          <div class="project-tags" aria-label="Technologies used">
+            <span class="project-tag">Next.js</span>
+            <span class="project-tag">LangChain</span>
+            <span class="project-tag">Pinecone</span>
+            <span class="project-tag">Stripe</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-link" title="View live demo">
+              <i class="fas fa-external-link-alt" aria-hidden="true"></i> Live Demo
+            </a>
+            <a href="#" class="proj-link" title="View source code">
+              <i class="fab fa-github" aria-hidden="true"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal" role="listitem">
+        <div class="project-thumb t2">
+          <span class="proj-emoji" aria-label="Chart emoji">📊</span>
+          <span class="proj-badge">Analytics</span>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Admin Dashboard — Real-time Dashboard</h3>
+          <p class="project-desc">An analytics dashboard with live data streams, AI-generated insights, and interactive charts for business metrics.</p>
+          <div class="project-tags" aria-label="Technologies used">
+            <span class="project-tag">React</span>
+            <span class="project-tag">FastAPI</span>
+            <span class="project-tag">WebSockets</span>
+            <span class="project-tag">Redis</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-link" title="View live demo">
+              <i class="fas fa-external-link-alt" aria-hidden="true"></i> Live Demo
+            </a>
+            <a href="#" class="proj-link" title="View source code">
+              <i class="fab fa-github" aria-hidden="true"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal" role="listitem">
+        <div class="project-thumb t3">
+          <span class="proj-emoji" aria-label="DNA emoji">🧬</span>
+          <span class="proj-badge">ML · Open Source</span>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Smart Search App</h3>
+          <p class="project-desc">A semantic search engine using vector embeddings to find contextually similar documents across massive corpuses.</p>
+          <div class="project-tags" aria-label="Technologies used">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">PyTorch</span>
+            <span class="project-tag">FAISS</span>
+            <span class="project-tag">Docker</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-link" title="View live demo">
+              <i class="fas fa-external-link-alt" aria-hidden="true"></i> Live Demo
+            </a>
+            <a href="#" class="proj-link" title="View source code">
+              <i class="fab fa-github" aria-hidden="true"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal" role="listitem">
+        <div class="project-thumb t4">
+          <span class="proj-emoji" aria-label="Shopping cart emoji">🛒</span>
+          <span class="proj-badge">E-commerce</span>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">ShopAI — Smart Commerce Platform</h3>
+          <p class="project-desc">Full-stack e-commerce platform with AI-powered recommendations, inventory prediction, and dynamic pricing engine.</p>
+          <div class="project-tags" aria-label="Technologies used">
+            <span class="project-tag">Next.js</span>
+            <span class="project-tag">Node.js</span>
+            <span class="project-tag">PostgreSQL</span>
+            <span class="project-tag">AWS</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-link" title="View live demo">
+              <i class="fas fa-external-link-alt" aria-hidden="true"></i> Live Demo
+            </a>
+            <a href="#" class="proj-link" title="View source code">
+              <i class="fab fa-github" aria-hidden="true"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal" role="listitem">
+        <div class="project-thumb t5">
+          <span class="proj-emoji" aria-label="Document emoji">📝</span>
+          <span class="proj-badge">Productivity</span>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Notes App — AI Writing Assistant</h3>
+          <p class="project-desc">A real-time AI writing tool with tone detection, grammar fixing, and content expansion — powered by GPT-4 and Claude.</p>
+          <div class="project-tags" aria-label="Technologies used">
+            <span class="project-tag">React</span>
+            <span class="project-tag">OpenAI</span>
+            <span class="project-tag">Tiptap</span>
+            <span class="project-tag">Supabase</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-link" title="View live demo">
+              <i class="fas fa-external-link-alt" aria-hidden="true"></i> Live Demo
+            </a>
+            <a href="#" class="proj-link" title="View source code">
+              <i class="fab fa-github" aria-hidden="true"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal" role="listitem">
+        <div class="project-thumb t6">
+          <span class="proj-emoji" aria-label="Lock emoji">🔐</span>
+          <span class="proj-badge">Security</span>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Login & Authentication System -trust Auth</h3>
+          <p class="project-desc">A developer-first authentication SDK with biometrics, MFA, anomaly detection, and a real-time threat monitoring dashboard.</p>
+          <div class="project-tags" aria-label="Technologies used">
+            <span class="project-tag">Node.js</span>
+            <span class="project-tag">OAuth 2.0</span>
+            <span class="project-tag">MongoDB</span>
+            <span class="project-tag">TypeScript</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-link" title="View live demo">
+              <i class="fas fa-external-link-alt" aria-hidden="true"></i> Live Demo
+            </a>
+            <a href="#" class="proj-link" title="View source code">
+              <i class="fab fa-github" aria-hidden="true"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════ CONTACT ══════════════════════════════════ -->
+<section id="contact" class="section section-alt">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label" style="justify-content:center;">Get In Touch</div>
+      <h2 class="section-title">Let's <span class="gradient-text">Work Together</span></h2>
+      <p class="section-description">
+        Whether you have a project idea, a job opportunity, or just want to say hello — my inbox is always open.
+      </p>
+    </div>
+
+    <div class="contact-inner">
+      <!-- Info -->
+      <div class="contact-info reveal">
+        <address>
+          <a href="mailto:thanosjelangavin@gmail.com" class="contact-info-item ci-email">
+            <div class="contact-icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+            <div class="contact-detail">
+              <span>Email</span>
+              <strong>thanosjelangavin@gmail.com</strong>
+            </div>
+          </a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-info-item ci-github">
+            <div class="contact-icon"><i class="fab fa-github" aria-hidden="true"></i></div>
+            <div class="contact-detail">
+              <span>GitHub</span>
+              <strong>github.com/Elangavin
+            </div>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-info-item ci-linkedin">
+            <div class="contact-icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></div>
+            <div class="contact-detail">
+              <span>LinkedIn</span>
+              <strong>linkedin.com/in/Elangavin</strong>
+            </div>
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="contact-info-item ci-twitter">
+            <div class="contact-icon"><i class="fab fa-twitter" aria-hidden="true"></i></div>
+            <div class="contact-detail">
+              <span>Twitter / X</span>
+              <strong>@Kavin_builds</strong>
+            </div>
+          </a>
+        </address>
+      </div>
+
+      <!-- Form -->
+      <div class="reveal">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">FIRST NAME</label>
+              <input type="text" id="firstName" name="firstName" placeholder="Kavin" required/>
+              <span class="error-message" id="firstNameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="lastName">LAST NAME</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Fransis"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" name="email" placeholder="thanosjk@gmail.com" required/>
+            <span class="error-message" id="emailError"></span>
+          </div>
+          <div class="form-group">
+            <label for="subject">SUBJECT</label>
+            <input type="text" id="subject" name="subject" placeholder="Project inquiry"/>
+          </div>
+          <div class="form-group">
+            <label for="message">MESSAGE</label>
+            <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+            <span class="error-message" id="messageError"></span>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">
+            <i class="fas fa-paper-plane" aria-hidden="true"></i> Send Message
+          </button>
+          <div id="formSuccess" class="form-success" hidden>
+            <i class="fas fa-check-circle" aria-hidden="true"></i> Message sent! I'll get back to you soon.
+          </div>
+          <div id="formError" class="form-error" hidden>
+            <i class="fas fa-exclamation-circle" aria-hidden="true"></i> Something went wrong. Please try again.
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════ FOOTER ══════════════════════════════════ -->
+<footer role="contentinfo">
+  <div class="container footer-inner">
+    <div class="footer-left">
+      Designed & Built by <strong>Alex Morgan</strong> — Full Stack Developer & AI Enthusiast
+    </div>
+    <div class="footer-socials" aria-label="Social media links">
+      <a href="#" class="social-btn" title="Visit GitHub" aria-label="GitHub">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+      <a href="#" class="social-btn" title="Visit LinkedIn" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+      </a>
+      <a href="#" class="social-btn" title="Visit Twitter" aria-label="Twitter">
+        <i class="fab fa-twitter" aria-hidden="true"></i>
+      </a>
+      <a href="mailto:thanosjelangavin@gmail.com" class="social-btn" title="Send email" aria-label="Email">
+        <i class="fas fa-envelope" aria-hidden="true"></i>
+      </a>
+    </div>
+    <div class="footer-copy">Made with <span aria-label="love">♥</span> · © 2025 Alex Morgan</div>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
